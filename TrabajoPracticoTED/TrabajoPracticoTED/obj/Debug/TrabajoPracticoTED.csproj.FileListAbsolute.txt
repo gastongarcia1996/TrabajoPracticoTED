@@ -1,0 +1,13 @@
+D:\TrabajoPracticoTED\TrabajoPracticoTED\TrabajoPracticoTED\bin\Debug\TrabajoPracticoTED.exe.config
+D:\TrabajoPracticoTED\TrabajoPracticoTED\TrabajoPracticoTED\bin\Debug\TrabajoPracticoTED.exe
+D:\TrabajoPracticoTED\TrabajoPracticoTED\TrabajoPracticoTED\bin\Debug\TrabajoPracticoTED.pdb
+D:\TrabajoPracticoTED\TrabajoPracticoTED\TrabajoPracticoTED\obj\Debug\TrabajoPracticoTED.csprojResolveAssemblyReference.cache
+D:\TrabajoPracticoTED\TrabajoPracticoTED\TrabajoPracticoTED\obj\Debug\TrabajoPracticoTED.Form1.resources
+D:\TrabajoPracticoTED\TrabajoPracticoTED\TrabajoPracticoTED\obj\Debug\TrabajoPracticoTED.Menu.resources
+D:\TrabajoPracticoTED\TrabajoPracticoTED\TrabajoPracticoTED\obj\Debug\TrabajoPracticoTED.Properties.Resources.resources
+D:\TrabajoPracticoTED\TrabajoPracticoTED\TrabajoPracticoTED\obj\Debug\TrabajoPracticoTED.csproj.GenerateResource.Cache
+D:\TrabajoPracticoTED\TrabajoPracticoTED\TrabajoPracticoTED\obj\Debug\TrabajoPracticoTED.csproj.CoreCompileInputs.cache
+D:\TrabajoPracticoTED\TrabajoPracticoTED\TrabajoPracticoTED\obj\Debug\TrabajoPracticoTED.exe
+D:\TrabajoPracticoTED\TrabajoPracticoTED\TrabajoPracticoTED\obj\Debug\TrabajoPracticoTED.pdb
+D:\TrabajoPracticoTED\TrabajoPracticoTED\TrabajoPracticoTED\obj\Debug\TrabajoPracticoTED.SistemaMaterialesForm.resources
+D:\TrabajoPracticoTED\TrabajoPracticoTED\TrabajoPracticoTED\obj\Debug\TrabajoPracticoTED.RegistroUsuarioForm.resources
