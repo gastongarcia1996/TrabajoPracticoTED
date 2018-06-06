@@ -34,13 +34,13 @@ namespace TrabajoPracticoTED
                 if (Conexion.consultar_usuario(this.txt_nombreDeUsuario.Text, this.txt_contraseña.Text).HasRows)
                 {
                     Conexion.CerrarConexion();
-                    MessageBox.Show(this, "El usuario ya existe", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                    form.Show();
-                    this.Close();
+                    MessageBox.Show(this, "El usuario ya existe", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);                  
                     return;
                 }
                 Conexion.insertar_usuario(this.txt_nombreDeUsuario.Text, this.txt_contraseña.Text);
-                MessageBox.Show(this, "Registrado correctamente", "Registro", MessageBoxButtons.OK, MessageBoxIcon.Information);               
+                MessageBox.Show(this, "Registrado correctamente", "Registro", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                form.Show();
+                this.Close();
             }
             else if (txt_nombreDeUsuario.Text == "" || txt_repetirContraseña.Text == "" || txt_contraseña.Text == "")
             {
@@ -59,6 +59,26 @@ namespace TrabajoPracticoTED
                     c.BackColor = Color.Red;
                 }
             }
+        }
+
+        private void mouse_down(object sender, MouseEventArgs e)
+        {
+            this.txt_contraseña.PasswordChar = '\0';
+        }
+
+        private void mouse_up(object sender, MouseEventArgs e)
+        {
+            this.txt_contraseña.PasswordChar = '*';
+        }
+
+        private void mouse_down_btn2(object sender, MouseEventArgs e)
+        {
+            this.txt_repetirContraseña.PasswordChar = '\0';
+        }
+
+        private void mouse_up_btn2(object sender, MouseEventArgs e)
+        {
+            this.txt_repetirContraseña.PasswordChar = '*';
         }
     }
 }

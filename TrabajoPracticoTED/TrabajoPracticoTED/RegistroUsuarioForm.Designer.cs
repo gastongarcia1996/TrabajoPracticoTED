@@ -36,6 +36,8 @@
             this.txt_repetirContraseña = new System.Windows.Forms.TextBox();
             this.btn_guardar = new System.Windows.Forms.Button();
             this.btn_cancelar = new System.Windows.Forms.Button();
+            this.btn_ver2 = new System.Windows.Forms.Button();
+            this.btn_ver1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbl_usuario
@@ -67,6 +69,7 @@
             // 
             this.txt_contraseña.Location = new System.Drawing.Point(218, 90);
             this.txt_contraseña.Name = "txt_contraseña";
+            this.txt_contraseña.PasswordChar = '*';
             this.txt_contraseña.Size = new System.Drawing.Size(100, 20);
             this.txt_contraseña.TabIndex = 3;
             // 
@@ -83,6 +86,7 @@
             // 
             this.txt_repetirContraseña.Location = new System.Drawing.Point(218, 138);
             this.txt_repetirContraseña.Name = "txt_repetirContraseña";
+            this.txt_repetirContraseña.PasswordChar = '*';
             this.txt_repetirContraseña.Size = new System.Drawing.Size(100, 20);
             this.txt_repetirContraseña.TabIndex = 5;
             // 
@@ -106,11 +110,35 @@
             this.btn_cancelar.UseVisualStyleBackColor = true;
             this.btn_cancelar.Click += new System.EventHandler(this.btn_cancelar_Click);
             // 
+            // btn_ver2
+            // 
+            this.btn_ver2.Location = new System.Drawing.Point(324, 136);
+            this.btn_ver2.Name = "btn_ver2";
+            this.btn_ver2.Size = new System.Drawing.Size(32, 23);
+            this.btn_ver2.TabIndex = 9;
+            this.btn_ver2.Text = "Ver";
+            this.btn_ver2.UseVisualStyleBackColor = true;
+            this.btn_ver2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouse_down_btn2);
+            this.btn_ver2.MouseUp += new System.Windows.Forms.MouseEventHandler(this.mouse_up_btn2);
+            // 
+            // btn_ver1
+            // 
+            this.btn_ver1.Location = new System.Drawing.Point(324, 88);
+            this.btn_ver1.Name = "btn_ver1";
+            this.btn_ver1.Size = new System.Drawing.Size(32, 23);
+            this.btn_ver1.TabIndex = 10;
+            this.btn_ver1.Text = "Ver";
+            this.btn_ver1.UseVisualStyleBackColor = true;
+            this.btn_ver1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouse_down);
+            this.btn_ver1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.mouse_up);
+            // 
             // RegistroUsuarioForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(431, 300);
+            this.Controls.Add(this.btn_ver1);
+            this.Controls.Add(this.btn_ver2);
             this.Controls.Add(this.btn_cancelar);
             this.Controls.Add(this.btn_guardar);
             this.Controls.Add(this.txt_repetirContraseña);
@@ -136,5 +164,7 @@
         private System.Windows.Forms.TextBox txt_repetirContraseña;
         private System.Windows.Forms.Button btn_guardar;
         private System.Windows.Forms.Button btn_cancelar;
+        private System.Windows.Forms.Button btn_ver2;
+        private System.Windows.Forms.Button btn_ver1;
     }
 }

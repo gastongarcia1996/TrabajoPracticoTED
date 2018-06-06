@@ -38,6 +38,7 @@
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.lbl_fecha_hora = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.btn_ver = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbl_usuario
@@ -108,11 +109,23 @@
             this.timer1.Interval = 1000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // btn_ver
+            // 
+            this.btn_ver.Location = new System.Drawing.Point(285, 103);
+            this.btn_ver.Name = "btn_ver";
+            this.btn_ver.Size = new System.Drawing.Size(32, 23);
+            this.btn_ver.TabIndex = 11;
+            this.btn_ver.Text = "Ver";
+            this.btn_ver.UseVisualStyleBackColor = true;
+            this.btn_ver.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Mouse_down);
+            this.btn_ver.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Mouse_up);
+            // 
             // InicioSesion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(388, 246);
+            this.Controls.Add(this.btn_ver);
             this.Controls.Add(this.lbl_fecha_hora);
             this.Controls.Add(this.btn_registrar);
             this.Controls.Add(this.btn_inicio);
@@ -140,6 +153,7 @@
         private System.Windows.Forms.ToolTip toolTip1;
         private System.Windows.Forms.Label lbl_fecha_hora;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Button btn_ver;
     }
 }
 

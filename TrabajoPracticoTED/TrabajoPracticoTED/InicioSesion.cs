@@ -56,5 +56,15 @@ namespace TrabajoPracticoTED
         {
             lbl_fecha_hora.Text = DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss ");
         }
+
+        private void Mouse_down(object sender, MouseEventArgs e)
+        {
+            this.txt_contraseña.PasswordChar = '\0';
+        }
+
+        private void Mouse_up(object sender, MouseEventArgs e)
+        {
+            this.txt_contraseña.PasswordChar = '*';
+        }
     }
 }
