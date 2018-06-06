@@ -25,9 +25,16 @@ namespace TrabajoPracticoTED
 
         private void btn_inicio_Click(object sender, EventArgs e)
         {
+            if (!Conexion.consultar_usuario(this.txt_usuario.Text, this.txt_contraseña.Text).HasRows)
+            {
+                Conexion.CerrarConexion();
+                MessageBox.Show(this, "Usuario o contraseña incorrectos", "Inicio sesion", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
             Menu menu = new Menu(this);
             this.Hide();
             menu.Show();
+            Conexion.CerrarConexion();
         }
 
         private void btn_registrar_Click(object sender, EventArgs e)

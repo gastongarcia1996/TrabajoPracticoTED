@@ -39,6 +39,11 @@ namespace TrabajoPracticoTED
         {
             this.Close();
             inicioSesion.Show();
+            
+            foreach (Control c in inicioSesion.Controls)
+            {
+                if (c is TextBox) c.Text = "";
+            }
         }
     }
 }
