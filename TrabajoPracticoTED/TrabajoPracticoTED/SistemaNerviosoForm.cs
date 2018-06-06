@@ -10,12 +10,18 @@ using System.Windows.Forms;
 
 namespace TrabajoPracticoTED
 {
-    public partial class SistemaMaterialesForm : Form
+    public partial class SistemaNerviosoForm : Form
     {
-        public SistemaMaterialesForm()
+        public SistemaNerviosoForm()
         {
             InitializeComponent();
+            this.Width = 1200;
             this.CenterToScreen();
+        }
+
+        private void Form_closing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

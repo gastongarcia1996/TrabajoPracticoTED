@@ -18,11 +18,12 @@ namespace TrabajoPracticoTED
         {
             this.form = f;
             InitializeComponent();
+            this.CenterToScreen();
         }
 
         private void btn_cancelar_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            this.Close();
             form.Show();
         }
 

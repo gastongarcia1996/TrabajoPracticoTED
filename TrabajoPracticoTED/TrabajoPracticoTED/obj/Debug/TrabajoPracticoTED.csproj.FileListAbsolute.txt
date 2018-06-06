@@ -11,3 +11,17 @@ D:\TrabajoPracticoTED\TrabajoPracticoTED\TrabajoPracticoTED\obj\Debug\TrabajoPra
 D:\TrabajoPracticoTED\TrabajoPracticoTED\TrabajoPracticoTED\obj\Debug\TrabajoPracticoTED.pdb
 D:\TrabajoPracticoTED\TrabajoPracticoTED\TrabajoPracticoTED\obj\Debug\TrabajoPracticoTED.SistemaMaterialesForm.resources
 D:\TrabajoPracticoTED\TrabajoPracticoTED\TrabajoPracticoTED\obj\Debug\TrabajoPracticoTED.RegistroUsuarioForm.resources
+C:\Users\gasto\Source\TrabajoPracticoTED\TrabajoPracticoTED\TrabajoPracticoTED\bin\Debug\TrabajoPracticoTED.exe.config
+C:\Users\gasto\Source\TrabajoPracticoTED\TrabajoPracticoTED\TrabajoPracticoTED\bin\Debug\TrabajoPracticoTED.exe
+C:\Users\gasto\Source\TrabajoPracticoTED\TrabajoPracticoTED\TrabajoPracticoTED\bin\Debug\TrabajoPracticoTED.pdb
+C:\Users\gasto\Source\TrabajoPracticoTED\TrabajoPracticoTED\TrabajoPracticoTED\obj\Debug\TrabajoPracticoTED.csprojAssemblyReference.cache
+C:\Users\gasto\Source\TrabajoPracticoTED\TrabajoPracticoTED\TrabajoPracticoTED\obj\Debug\TrabajoPracticoTED.InicioSesion.resources
+C:\Users\gasto\Source\TrabajoPracticoTED\TrabajoPracticoTED\TrabajoPracticoTED\obj\Debug\TrabajoPracticoTED.Menu.resources
+C:\Users\gasto\Source\TrabajoPracticoTED\TrabajoPracticoTED\TrabajoPracticoTED\obj\Debug\TrabajoPracticoTED.Properties.Resources.resources
+C:\Users\gasto\Source\TrabajoPracticoTED\TrabajoPracticoTED\TrabajoPracticoTED\obj\Debug\TrabajoPracticoTED.RegistroUsuarioForm.resources
+C:\Users\gasto\Source\TrabajoPracticoTED\TrabajoPracticoTED\TrabajoPracticoTED\obj\Debug\TrabajoPracticoTED.SistemaMaterialesForm.resources
+C:\Users\gasto\Source\TrabajoPracticoTED\TrabajoPracticoTED\TrabajoPracticoTED\obj\Debug\TrabajoPracticoTED.csproj.GenerateResource.cache
+C:\Users\gasto\Source\TrabajoPracticoTED\TrabajoPracticoTED\TrabajoPracticoTED\obj\Debug\TrabajoPracticoTED.csproj.CoreCompileInputs.cache
+C:\Users\gasto\Source\TrabajoPracticoTED\TrabajoPracticoTED\TrabajoPracticoTED\obj\Debug\TrabajoPracticoTED.exe
+C:\Users\gasto\Source\TrabajoPracticoTED\TrabajoPracticoTED\TrabajoPracticoTED\obj\Debug\TrabajoPracticoTED.pdb
+C:\Users\gasto\Source\TrabajoPracticoTED\TrabajoPracticoTED\TrabajoPracticoTED\obj\Debug\TrabajoPracticoTED.SistemaNerviosoForm.resources

@@ -45,6 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Conexion.cs" />
     <Compile Include="InicioSesion.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -71,6 +72,12 @@
     <Compile Include="SistemaMaterialesForm.Designer.cs">
       <DependentUpon>SistemaMaterialesForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="SistemaNerviosoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaNerviosoForm.Designer.cs">
+      <DependentUpon>SistemaNerviosoForm.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="InicioSesion.resx">
       <DependentUpon>InicioSesion.cs</DependentUpon>
     </EmbeddedResource>
@@ -85,12 +92,16 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="RegistroUsuarioForm.resx">
       <DependentUpon>RegistroUsuarioForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SistemaMaterialesForm.resx">
       <DependentUpon>SistemaMaterialesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SistemaNerviosoForm.resx">
+      <DependentUpon>SistemaNerviosoForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -104,6 +115,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cerebro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cerebro1.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

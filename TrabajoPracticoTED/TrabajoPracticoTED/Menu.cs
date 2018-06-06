@@ -12,9 +12,13 @@ namespace TrabajoPracticoTED
 {
     public partial class Menu : Form
     {
-        public Menu()
+        InicioSesion inicioSesion = null;
+
+        public Menu(InicioSesion inicioSesion)
         {
             InitializeComponent();
+            this.inicioSesion = inicioSesion;
+            this.CenterToScreen();
         }
 
         private void btn_sistMateriales_Click(object sender, EventArgs e)
@@ -22,6 +26,19 @@ namespace TrabajoPracticoTED
             SistemaMaterialesForm smf = new SistemaMaterialesForm();
             this.Hide();          
             smf.Show();
+        }
+
+        private void btn_sistNervioso_Click(object sender, EventArgs e)
+        {
+            SistemaNerviosoForm snf = new SistemaNerviosoForm();
+            this.Hide();
+            snf.Show();
+        }
+
+        private void btn_atras_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            inicioSesion.Show();
         }
     }
 }
