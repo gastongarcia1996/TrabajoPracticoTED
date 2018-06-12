@@ -31,12 +31,13 @@ namespace TrabajoPracticoTED
         {          
             if (txt_contraseña.Text.CompareTo(txt_repetirContraseña.Text) == 0 && txt_nombreDeUsuario.Text != "")
             {
-                if (Conexion.consultar_usuario(this.txt_nombreDeUsuario.Text, this.txt_contraseña.Text).HasRows)
+                if (Conexion.consultar_usuario(this.txt_nombreDeUsuario.Text).HasRows)
                 {
                     Conexion.CerrarConexion();
                     MessageBox.Show(this, "El usuario ya existe", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);                  
                     return;
                 }
+                this.btn_guardar.Cursor = Cursors.AppStarting;
                 Conexion.insertar_usuario(this.txt_nombreDeUsuario.Text, this.txt_contraseña.Text);
                 MessageBox.Show(this, "Registrado correctamente", "Registro", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 form.Show();

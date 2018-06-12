@@ -25,7 +25,8 @@ namespace TrabajoPracticoTED
 
         private void btn_inicio_Click(object sender, EventArgs e)
         {
-            if (!Conexion.consultar_usuario(this.txt_usuario.Text, this.txt_contraseña.Text).HasRows)
+            this.btn_inicio.Cursor = Cursors.AppStarting;
+            if (!Conexion.consultar_usuario_contraseña(this.txt_usuario.Text, this.txt_contraseña.Text).HasRows)
             {
                 Conexion.CerrarConexion();
                 MessageBox.Show(this, "Usuario o contraseña incorrectos", "Inicio sesion", MessageBoxButtons.OK, MessageBoxIcon.Warning);

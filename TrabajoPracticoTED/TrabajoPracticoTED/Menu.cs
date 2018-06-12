@@ -30,9 +30,14 @@ namespace TrabajoPracticoTED
 
         private void btn_sistNervioso_Click(object sender, EventArgs e)
         {
+            /*
             SistemaNerviosoForm snf = new SistemaNerviosoForm();
             this.Hide();
             snf.Show();
+            */
+            TurorialSistemaNerviosoForm tsnf = new TurorialSistemaNerviosoForm();
+            this.Hide();
+            tsnf.Show();
         }
 
         private void btn_atras_Click(object sender, EventArgs e)
