@@ -28,3 +28,6 @@ C:\Users\gasto\Source\TrabajoPracticoTED\TrabajoPracticoTED\TrabajoPracticoTED\o
 C:\Users\gasto\Source\TrabajoPracticoTED\TrabajoPracticoTED\TrabajoPracticoTED\obj\Debug\TrabajoPracticoTED.TurorialSistemaNerviosoForm.resources
 C:\Users\gasto\Source\TrabajoPracticoTED\TrabajoPracticoTED\TrabajoPracticoTED\bin\Debug\AForge.Imaging.dll
 C:\Users\gasto\Source\TrabajoPracticoTED\TrabajoPracticoTED\TrabajoPracticoTED\obj\Debug\TrabajoPracticoTED.csproj.CopyComplete
+D:\repositores tp\TrabajoPracticoTED\TrabajoPracticoTED\bin\Debug\TrabajoPracticoTED.exe.config
+D:\repositores tp\TrabajoPracticoTED\TrabajoPracticoTED\obj\Debug\TrabajoPracticoTED.exe
+D:\repositores tp\TrabajoPracticoTED\TrabajoPracticoTED\obj\Debug\TrabajoPracticoTED.pdb
