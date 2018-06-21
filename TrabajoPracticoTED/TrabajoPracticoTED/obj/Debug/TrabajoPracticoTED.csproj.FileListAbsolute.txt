@@ -30,3 +30,18 @@ D:\repositores tp\TrabajoPracticoTED\TrabajoPracticoTED\bin\Debug\TrabajoPractic
 D:\repositores tp\TrabajoPracticoTED\TrabajoPracticoTED\obj\Debug\TrabajoPracticoTED.exe
 D:\repositores tp\TrabajoPracticoTED\TrabajoPracticoTED\obj\Debug\TrabajoPracticoTED.pdb
 C:\Users\gasto\Source\TrabajoPracticoTED\TrabajoPracticoTED\TrabajoPracticoTED\obj\Debug\TrabajoPracticoTED.ActividadCerebroForm.resources
+C:\Nueva carpeta 1 tp\TrabajoPracticoTED\TrabajoPracticoTED\bin\Debug\TrabajoPracticoTED.exe.config
+C:\Nueva carpeta 1 tp\TrabajoPracticoTED\TrabajoPracticoTED\obj\Debug\TrabajoPracticoTED.exe
+C:\Nueva carpeta 1 tp\TrabajoPracticoTED\TrabajoPracticoTED\obj\Debug\TrabajoPracticoTED.pdb
+C:\Nueva carpeta 1 tp\TrabajoPracticoTED\TrabajoPracticoTED\bin\Debug\TrabajoPracticoTED.exe
+C:\Nueva carpeta 1 tp\TrabajoPracticoTED\TrabajoPracticoTED\bin\Debug\TrabajoPracticoTED.pdb
+C:\Nueva carpeta 1 tp\TrabajoPracticoTED\TrabajoPracticoTED\obj\Debug\TrabajoPracticoTED.csprojResolveAssemblyReference.cache
+C:\Nueva carpeta 1 tp\TrabajoPracticoTED\TrabajoPracticoTED\obj\Debug\TrabajoPracticoTED.ActividadCerebroForm.resources
+C:\Nueva carpeta 1 tp\TrabajoPracticoTED\TrabajoPracticoTED\obj\Debug\TrabajoPracticoTED.InicioSesion.resources
+C:\Nueva carpeta 1 tp\TrabajoPracticoTED\TrabajoPracticoTED\obj\Debug\TrabajoPracticoTED.Menu.resources
+C:\Nueva carpeta 1 tp\TrabajoPracticoTED\TrabajoPracticoTED\obj\Debug\TrabajoPracticoTED.Properties.Resources.resources
+C:\Nueva carpeta 1 tp\TrabajoPracticoTED\TrabajoPracticoTED\obj\Debug\TrabajoPracticoTED.RegistroUsuarioForm.resources
+C:\Nueva carpeta 1 tp\TrabajoPracticoTED\TrabajoPracticoTED\obj\Debug\TrabajoPracticoTED.SistemaMaterialesForm.resources
+C:\Nueva carpeta 1 tp\TrabajoPracticoTED\TrabajoPracticoTED\obj\Debug\TrabajoPracticoTED.SistemaNerviosoForm.resources
+C:\Nueva carpeta 1 tp\TrabajoPracticoTED\TrabajoPracticoTED\obj\Debug\TrabajoPracticoTED.TurorialSistemaNerviosoForm.resources
+C:\Nueva carpeta 1 tp\TrabajoPracticoTED\TrabajoPracticoTED\obj\Debug\TrabajoPracticoTED.csproj.GenerateResource.Cache

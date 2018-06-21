@@ -29,9 +29,8 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.lbl_usuario = new System.Windows.Forms.Label();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(InicioSesion));
             this.txt_usuario = new System.Windows.Forms.TextBox();
-            this.lbl_contraseña = new System.Windows.Forms.Label();
             this.txt_contraseña = new System.Windows.Forms.TextBox();
             this.btn_inicio = new System.Windows.Forms.Button();
             this.btn_registrar = new System.Windows.Forms.Button();
@@ -41,42 +40,24 @@
             this.btn_ver = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // lbl_usuario
-            // 
-            this.lbl_usuario.AutoSize = true;
-            this.lbl_usuario.Location = new System.Drawing.Point(91, 72);
-            this.lbl_usuario.Name = "lbl_usuario";
-            this.lbl_usuario.Size = new System.Drawing.Size(43, 13);
-            this.lbl_usuario.TabIndex = 0;
-            this.lbl_usuario.Text = "Usuario";
-            // 
             // txt_usuario
             // 
-            this.txt_usuario.Location = new System.Drawing.Point(179, 69);
+            this.txt_usuario.Location = new System.Drawing.Point(200, 46);
             this.txt_usuario.Name = "txt_usuario";
-            this.txt_usuario.Size = new System.Drawing.Size(100, 20);
+            this.txt_usuario.Size = new System.Drawing.Size(77, 20);
             this.txt_usuario.TabIndex = 1;
-            // 
-            // lbl_contraseña
-            // 
-            this.lbl_contraseña.AutoSize = true;
-            this.lbl_contraseña.Location = new System.Drawing.Point(91, 108);
-            this.lbl_contraseña.Name = "lbl_contraseña";
-            this.lbl_contraseña.Size = new System.Drawing.Size(66, 13);
-            this.lbl_contraseña.TabIndex = 2;
-            this.lbl_contraseña.Text = "Constraseña";
             // 
             // txt_contraseña
             // 
-            this.txt_contraseña.Location = new System.Drawing.Point(179, 105);
+            this.txt_contraseña.Location = new System.Drawing.Point(200, 77);
             this.txt_contraseña.Name = "txt_contraseña";
             this.txt_contraseña.PasswordChar = '*';
-            this.txt_contraseña.Size = new System.Drawing.Size(100, 20);
+            this.txt_contraseña.Size = new System.Drawing.Size(77, 20);
             this.txt_contraseña.TabIndex = 3;
             // 
             // btn_inicio
             // 
-            this.btn_inicio.Location = new System.Drawing.Point(59, 178);
+            this.btn_inicio.Location = new System.Drawing.Point(59, 191);
             this.btn_inicio.Name = "btn_inicio";
             this.btn_inicio.Size = new System.Drawing.Size(75, 23);
             this.btn_inicio.TabIndex = 4;
@@ -86,7 +67,7 @@
             // 
             // btn_registrar
             // 
-            this.btn_registrar.Location = new System.Drawing.Point(259, 178);
+            this.btn_registrar.Location = new System.Drawing.Point(285, 191);
             this.btn_registrar.Name = "btn_registrar";
             this.btn_registrar.Size = new System.Drawing.Size(75, 23);
             this.btn_registrar.TabIndex = 5;
@@ -111,7 +92,7 @@
             // 
             // btn_ver
             // 
-            this.btn_ver.Location = new System.Drawing.Point(285, 103);
+            this.btn_ver.Location = new System.Drawing.Point(285, 77);
             this.btn_ver.Name = "btn_ver";
             this.btn_ver.Size = new System.Drawing.Size(32, 23);
             this.btn_ver.TabIndex = 11;
@@ -124,15 +105,15 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(388, 246);
             this.Controls.Add(this.btn_ver);
             this.Controls.Add(this.lbl_fecha_hora);
             this.Controls.Add(this.btn_registrar);
             this.Controls.Add(this.btn_inicio);
             this.Controls.Add(this.txt_contraseña);
-            this.Controls.Add(this.lbl_contraseña);
             this.Controls.Add(this.txt_usuario);
-            this.Controls.Add(this.lbl_usuario);
             this.Name = "InicioSesion";
             this.Text = "Inicio sesion";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form_closing);
@@ -143,10 +124,7 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Label lbl_usuario;
         private System.Windows.Forms.TextBox txt_usuario;
-        private System.Windows.Forms.Label lbl_contraseña;
         private System.Windows.Forms.TextBox txt_contraseña;
         private System.Windows.Forms.Button btn_inicio;
         private System.Windows.Forms.Button btn_registrar;

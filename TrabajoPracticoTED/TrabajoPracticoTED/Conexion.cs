@@ -7,7 +7,7 @@ using System.Data.Sql;
 using System.Data.SqlClient;
 
 namespace TrabajoPracticoTED
-{
+{ 
     public static class Conexion
     {
         private static string cadena_conexion = "Data Source=GASTONGARCIA\\SQLEXPRESS2014;Initial Catalog=Usuarios;Integrated Security=True";
@@ -29,7 +29,7 @@ namespace TrabajoPracticoTED
 
             return sdr;
         }
-
+        
         public static SqlDataReader consultar_usuario(string nombre)
         {
             SqlDataReader sdr = null;
@@ -47,7 +47,7 @@ namespace TrabajoPracticoTED
 
             return sdr;
         }
-
+        
         public static void insertar_usuario(string nombre, string contraseña)
         {
             string consulta = "INSERT INTO usuarios(nombre, contraseña) VALUES('" + nombre + "', '" + contraseña + "');";
