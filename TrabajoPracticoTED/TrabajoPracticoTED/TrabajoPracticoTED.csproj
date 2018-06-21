@@ -159,5 +159,11 @@
   <ItemGroup>
     <None Include="Resources\dexter tamaño nuevo menu.jpeg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dexteeeeeeeeeeeeeeeeeeer.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crear cuenta.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

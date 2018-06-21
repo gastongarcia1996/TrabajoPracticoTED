@@ -83,6 +83,26 @@ namespace TrabajoPracticoTED.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap crear_cuenta {
+            get {
+                object obj = ResourceManager.GetObject("crear cuenta", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap dexteeeeeeeeeeeeeeeeeeer {
+            get {
+                object obj = ResourceManager.GetObject("dexteeeeeeeeeeeeeeeeeeer", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap dexter_tamaño_nuevo_menu {
             get {
                 object obj = ResourceManager.GetObject("dexter tamaño nuevo menu", resourceCulture);
