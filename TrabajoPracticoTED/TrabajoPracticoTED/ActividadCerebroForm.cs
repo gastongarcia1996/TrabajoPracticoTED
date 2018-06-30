@@ -96,6 +96,7 @@ namespace TrabajoPracticoTED
             }
         }
 
+
         private void VerificarCombo4()
         {
             if (this.comboBox4.SelectedItem != null && this.comboBox4.SelectedItem.ToString().CompareTo("Plexo coroides") == 0)
